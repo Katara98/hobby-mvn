@@ -108,4 +108,8 @@ public class Hobby {
                 ", isActive=" + isActive +
                 '}';
     }
+
+    public double getProfit() {
+        return earnedMoney - spentMoney;
+    }
 }
