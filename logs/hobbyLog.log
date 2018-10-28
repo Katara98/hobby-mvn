@@ -1,0 +1,75 @@
+2018-10-28 18:53:03 DEBUG Hobby:11 - This is debug
+2018-10-28 18:53:10 ERROR Hobby:24 - 
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextInt(Scanner.java:2117)
+	at java.util.Scanner.nextInt(Scanner.java:2076)
+	at com.nadya.Test.main(Test.java:21)
+2018-10-28 19:08:06 DEBUG Hobby:11 - This is debug
+2018-10-28 19:08:10 INFO  Hobby:19 - hobby4.setName: 3
+2018-10-28 19:08:14 INFO  Hobby:23 - hobby4.setHours: 33
+2018-10-28 19:08:18 INFO  Hobby:29 - hobby4.setPriority: *
+2018-10-28 19:08:22 ERROR Hobby:35 - hobby4.setFinishedWorks: null
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextLong(Scanner.java:2222)
+	at java.util.Scanner.nextLong(Scanner.java:2182)
+	at com.nadya.Test.main(Test.java:32)
+2018-10-28 19:08:22 ERROR Hobby:42 - hobby4.setCurrentWorks: null
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextByte(Scanner.java:1881)
+	at java.util.Scanner.nextByte(Scanner.java:1840)
+	at com.nadya.Test.main(Test.java:39)
+2018-10-28 19:08:22 ERROR Hobby:49 - hobby4.setPlannedWorks: null
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextShort(Scanner.java:1987)
+	at java.util.Scanner.nextShort(Scanner.java:1946)
+	at com.nadya.Test.main(Test.java:46)
+2018-10-28 19:08:22 ERROR Hobby:56 - hobby4.setEarnedMoney: null
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextFloat(Scanner.java:2345)
+	at com.nadya.Test.main(Test.java:53)
+2018-10-28 19:08:22 ERROR Hobby:63 - hobby4.setSpentMoney: null
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextDouble(Scanner.java:2413)
+	at com.nadya.Test.main(Test.java:60)
+2018-10-28 19:08:22 ERROR Hobby:70 - hobby4.setActive: null
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextBoolean(Scanner.java:1782)
+	at com.nadya.Test.main(Test.java:67)
+2018-10-28 19:14:11 DEBUG Hobby:11 - This is debug
+2018-10-28 19:14:15 INFO  Hobby:19 - hobby4.setName: 12
+2018-10-28 19:14:17 INFO  Hobby:23 - hobby4.setHours: 3
+2018-10-28 19:14:18 INFO  Hobby:26 - hobby4.setPriority: 3
+2018-10-28 19:14:19 INFO  Hobby:29 - hobby4.setFinishedWorks: 3
+2018-10-28 19:14:21 ERROR Hobby:46 - hobby4 error: null
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextByte(Scanner.java:1881)
+	at java.util.Scanner.nextByte(Scanner.java:1840)
+	at com.nadya.Test.main(Test.java:31)
+2018-10-28 19:17:23 DEBUG Hobby:11 - This is debug
+2018-10-28 19:17:32 INFO  Hobby:19 - hobby4.setName: 23
+2018-10-28 19:17:33 INFO  Hobby:23 - hobby4.setHours: 12
+2018-10-28 19:17:34 INFO  Hobby:26 - hobby4.setPriority: +
+2018-10-28 19:17:35 INFO  Hobby:29 - hobby4.setFinishedWorks: 63
+2018-10-28 19:17:36 ERROR Hobby:46 - hobby4 error!
+java.util.InputMismatchException
+	at java.util.Scanner.throwFor(Scanner.java:864)
+	at java.util.Scanner.next(Scanner.java:1485)
+	at java.util.Scanner.nextByte(Scanner.java:1881)
+	at java.util.Scanner.nextByte(Scanner.java:1840)
+	at com.nadya.Test.main(Test.java:31)
