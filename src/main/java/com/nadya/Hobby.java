@@ -1,8 +1,8 @@
 package com.nadya;
 
-public class Hobby {
+public abstract class Hobby {
     private String name;
-    private char priority;
+    private char priority = 'A';
     private byte currentWorks;
     private short plannedWorks;
     private int hours;
@@ -10,9 +10,6 @@ public class Hobby {
     private float earnedMoney;
     private double spentMoney;
     private boolean isActive;
-
-    Hobby() {
-    }
 
     Hobby(String name) {
         this.name=name;
@@ -95,19 +92,7 @@ public class Hobby {
         this.name = name;
     }
 
-    public String tellAboutHobby() {
-        return "main.Hobby{" +
-                "name='" + name + '\'' +
-                ", hours=" + hours +
-                ", priority=" + priority +
-                ", finishedWorks=" + finishedWorks +
-                ", currentWorks=" + currentWorks +
-                ", plannedWorks=" + plannedWorks +
-                ", earnedMoney=" + earnedMoney +
-                ", spentMoney=" + spentMoney +
-                ", isActive=" + isActive +
-                '}';
-    }
+    public abstract String tellAboutHobby();
 
     public double getProfit() {
         return earnedMoney - spentMoney;
