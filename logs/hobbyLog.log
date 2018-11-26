@@ -73,3 +73,12 @@ java.util.InputMismatchException
 	at java.util.Scanner.nextByte(Scanner.java:1881)
 	at java.util.Scanner.nextByte(Scanner.java:1840)
 	at com.nadya.Test.main(Test.java:31)
+2018-10-29 20:59:14 DEBUG Hobby:11 - This is debug
+2018-10-29 20:59:33 DEBUG Hobby:11 - This is debug
+2018-10-29 20:59:47 DEBUG Hobby:11 - This is debug
+2018-10-29 21:13:40 DEBUG Hobby:11 - This is debug
+2018-10-29 21:14:07 INFO  Hobby:19 - hobby4.setName: 111
+2018-10-29 21:49:17 DEBUG Hobby:11 - This is debug
+2018-10-29 21:50:34 DEBUG Hobby:11 - This is debug
+2018-10-29 21:56:24 DEBUG Hobby:11 - This is debug
+2018-10-29 22:08:09 DEBUG Hobby:11 - This is debug

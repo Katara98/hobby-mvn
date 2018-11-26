@@ -12,7 +12,7 @@ public abstract class Hobby {
     private boolean isActive;
 
     Hobby(String name) {
-        this.name=name;
+        this.name = name;
     }
 
     Hobby(String name, int hours) {
@@ -48,7 +48,10 @@ public abstract class Hobby {
         return hours;
     }
 
-    public void setHours(int hours) {
+    public void setHours(int hours) throws HobbyException {
+        if (hours < 0) {
+            throw new HobbyException("Time can't be less than 0");
+        }
         this.hours = hours;
     }
 

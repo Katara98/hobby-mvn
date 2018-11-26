@@ -30,16 +30,16 @@ public class PlayingMusicalInstrument extends Hobby {
         this.instrument = instrument;
     }
 
-    public String tellAboutHobby(){
-        return title + "(" + this.instrument + ") {" +
-                "hours: " + getHours() +
-                ", priority: " + getPriority() +
-                ", finished songs: " + getFinishedWorks() +
-                ", current songs: " + getCurrentWorks() +
-                ", planned songs: " + getPlannedWorks() +
-                ", earned money: " + getEarnedMoney() +
-                ", spentmoney: " + getSpentMoney() +
-                ", is active: " + isActive() +
-                '}';
+    public String tellAboutHobby() {
+        return title + "(" + this.instrument + ") {"
+                + "hours: " + getHours()
+                + ", priority: " + getPriority()
+                + ", finished songs: " + getFinishedWorks()
+                + ", current songs: " + getCurrentWorks()
+                + ", planned songs: " + getPlannedWorks()
+                + ", earned money: " + getEarnedMoney()
+                + ", spentmoney: " + getSpentMoney()
+                + ", is active: " + isActive()
+                + '}';
     }
 }

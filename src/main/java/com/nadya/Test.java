@@ -11,6 +11,11 @@ public class Test {
                            new Painting(120, "Impressionism"),
                            new PlayingMusicalInstrument(104, "Guitar"),
                            new PlayingMusicalInstrument("Drums")};
+        try {
+            hobbies[1].setHours(-5);
+        } catch (HobbyException e) {
+            System.out.println(e.getMessage());
+        }
         for (Hobby hobby: hobbies) {
             System.out.println(hobby.tellAboutHobby());
         }
